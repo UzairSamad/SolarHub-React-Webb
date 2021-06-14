@@ -25,6 +25,7 @@ import {
   FlashOn as FlashOnIcon,
 } from "@material-ui/icons";
 import CourseCards from "./CourseCards";
+import ImageCards from "./ImageCards";
 
 const useStyles = makeStyles((theme) => ({
   mainFeaturedPost: {
@@ -290,6 +291,7 @@ const HomePage = () => {
           </Container>
         </Paper>
         <CourseCards />
+        <ImageCards />
       </div>
     </div>
   );
