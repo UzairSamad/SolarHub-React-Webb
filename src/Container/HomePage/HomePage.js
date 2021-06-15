@@ -26,6 +26,7 @@ import {
 } from "@material-ui/icons";
 import CourseCards from "./CourseCards";
 import ImageCards from "./ImageCards";
+import Footer from "./../../Components/AppFooter/Footer";
 
 const useStyles = makeStyles((theme) => ({
   mainFeaturedPost: {
@@ -292,6 +293,7 @@ const HomePage = () => {
         </Paper>
         <CourseCards />
         <ImageCards />
+        <Footer />
       </div>
     </div>
   );
