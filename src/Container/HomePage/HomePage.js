@@ -215,7 +215,7 @@ const HomePage = () => {
             </Grid>
           </Container>
           <Container maxWidth="md" style={{ paddingBottom: "50px" }}>
-            <Grid container style={{ justifyContent: "center" }} spacing={4}>
+            <Grid container spacing={4}>
               <Grid item xs={12} sm={4}>
                 <ListItem>
                   <ListItemAvatar style={{ minWidth: "70px" }}>
@@ -264,7 +264,7 @@ const HomePage = () => {
                   />
                 </ListItem>
               </Grid>
-              <Grid item xs={12} sm={4}>
+              <Grid item xs={12} sm={6} md={4}>
                 <ListItem>
                   <ListItemAvatar style={{ minWidth: "70px" }}>
                     <Avatar className={classes.avatar}>
