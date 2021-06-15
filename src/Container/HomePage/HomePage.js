@@ -16,6 +16,7 @@ import {
   ListItem,
   ListItemAvatar,
   Avatar,
+  Fab,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import {
@@ -27,6 +28,7 @@ import {
 import CourseCards from "./CourseCards";
 import ImageCards from "./ImageCards";
 import Footer from "./../../Components/AppFooter/Footer";
+import ScrollToTop from "./../../Components/ScrollToTop/ScrollToTop";
 
 const useStyles = makeStyles((theme) => ({
   mainFeaturedPost: {
@@ -293,6 +295,8 @@ const HomePage = () => {
         </Paper>
         <CourseCards />
         <ImageCards />
+
+        <ScrollToTop />
         <Footer />
       </div>
     </div>
